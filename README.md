@@ -32,8 +32,11 @@
 
 ## 📰 About the project
 
-ig.news is a blog where users can access the full content of each post through a subscription.
-The blog has a purchase system integrated with STRIPE, where the user can buy his subscription to view the complete content of the entire blog. If the user does not wish to opt for the subscription, he will have limited access to the content of the posts.
+This repository presents a design system crafted to enhance and streamline the development of user interfaces.
+
+Organized as a monorepo, the project structure allows for seamless management and consistent updates across all components. This setup not only simplifies the development workflow but also ensures that all parts of the design system work harmoniously together.
+
+With a focus on creating high-quality and accessible UI components, the design system leverages the power of StoryBook for component development and documentation. This enables developers to build, test, and showcase components in isolation, promoting better collaboration and faster iterations.
 
 ## 🚀 Technologies
 
