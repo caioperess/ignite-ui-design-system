@@ -52,15 +52,17 @@ Technologies that I used to develop this application
 
 ## 🧩 Components
 
-- [x] Text
-- [x] Heading
+- [x] Avatar
 - [x] Box
 - [x] Button
-- [x] TextInput
-- [x] TextArea
 - [x] CheckBox
-- [x] Avatar
+- [x] Heading
 - [x] MultiStep
+- [x] Text
+- [x] TextArea
+- [x] TextInput
+- [x] Toast
+- [x] Tooltip
 
 ## 💻 Getting started
 
