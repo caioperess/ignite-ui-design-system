@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@caio-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -33,10 +33,10 @@
     "vite": "^5.2.11"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "workspace:*",
-    "@ignite-ui/react": "workspace:*",
-    "@ignite-ui/tokens": "workspace:*",
-    "@ignite-ui/ts-config": "workspace:*",
+    "@caio-ignite-ui/eslint-config": "workspace:*",
+    "@caio-ignite-ui/react": "workspace:*",
+    "@caio-ignite-ui/tokens": "workspace:*",
+    "@caio-ignite-ui/ts-config": "workspace:*",
     "@phosphor-icons/react": "^2.1.5",
     "polished": "^4.3.1",
     "react": "^18.3.1",
