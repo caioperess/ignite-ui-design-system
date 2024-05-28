@@ -23,7 +23,7 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
-      - run: pnpm ci
+      - run: pnpm install
       - run: pnpm run build
 
       - name: Deploy storybook
