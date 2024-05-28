@@ -27,7 +27,7 @@ jobs:
       - run: pnpm build
 
       - name: Deploy storybook
-        run: pnpm deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: pnpm deploy-storybook --ci --existing-output-dir=storybook-static
         working-directory: ./packages/docs
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
