@@ -1,11 +1,36 @@
-import { Box, Text, TextInput, TextInputProps } from '@caio-ignite-ui/react'
+import {
+  Box,
+  Text,
+  TextInput,
+  TextInputProps,
+} from '@ignite-call-ui-docs/react'
 import type { Meta, StoryObj } from '@storybook/react'
+import { ComponentType } from 'react'
 
 const meta: Meta<TextInputProps> = {
   title: 'Form/Text Input',
-  component: TextInput,
+  component: TextInput as ComponentType,
   tags: ['autodocs'],
-  args: {},
+  args: {
+    size: 'md',
+    disabled: false,
+  },
+  argTypes: {
+    size: {
+      type: 'string',
+      options: ['sm', 'md'],
+      control: 'inline-radio',
+    },
+    placeholder: {
+      type: 'string',
+    },
+    prefix: {
+      type: 'string',
+    },
+    disabled: {
+      type: 'boolean',
+    },
+  },
   decorators: [
     (Story) => (
       <Box
@@ -29,7 +54,7 @@ export const Primary: Story = {
 }
 
 export const WithPrefix: Story = {
-  args: { prefix: 'cal.com/' },
+  args: { prefix: 'cal.com/', placeholder: 'your-username' },
 }
 
 export const Disabled: Story = {

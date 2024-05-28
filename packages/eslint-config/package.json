@@ -1,6 +1,6 @@
 {
-  "name": "@caio-ignite-ui/eslint-config",
-  "version": "1.0.0",
+  "name": "@ignite-call-ui-docs/eslint-config",
+  "version": "1.0.1",
   "license": "MIT",
   "private": true,
   "main": "index.js",

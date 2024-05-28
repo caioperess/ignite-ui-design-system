@@ -1,12 +1,12 @@
 import {
-    colors,
-    fontSizes,
-    fontWeights,
-    fonts,
-    lineHeights,
-    radii,
-    space,
-} from '@caio-ignite-ui/tokens'
+  colors,
+  fontSizes,
+  fontWeights,
+  fonts,
+  lineHeights,
+  radii,
+  space,
+} from '@ignite-call-ui-docs/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

@@ -1,4 +1,4 @@
-import { Heading, HeadingProps } from '@caio-ignite-ui/react'
+import { Heading, HeadingProps } from '@ignite-call-ui-docs/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<HeadingProps> = {

@@ -1,4 +1,4 @@
-# @ignite-call-ui-docs/tokens
+# @ignite-call-ui-docs/ts-config
 
 ## 1.0.1
 

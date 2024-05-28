@@ -1,6 +1,6 @@
 {
-  "name": "@caio-ignite-ui/react",
-  "version": "1.0.0",
+  "name": "@ignite-call-ui-docs/react",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@caio-ignite-ui/eslint-config": "workspace:*",
-    "@caio-ignite-ui/tokens": "workspace:*",
-    "@caio-ignite-ui/ts-config": "workspace:*",
+    "@ignite-call-ui-docs/eslint-config": "workspace:*",
+    "@ignite-call-ui-docs/tokens": "workspace:*",
+    "@ignite-call-ui-docs/ts-config": "workspace:*",
     "@types/react": "^18.3.2",
     "@types/react-dom": "^18.3.0",
     "react": "^18.3.1",

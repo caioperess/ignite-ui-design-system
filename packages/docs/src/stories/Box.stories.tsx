@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from '@caio-ignite-ui/react'
+import { Box, BoxProps, Text } from '@ignite-call-ui-docs/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<BoxProps> = {

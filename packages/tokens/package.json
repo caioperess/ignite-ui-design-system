@@ -1,6 +1,6 @@
 {
-  "name": "@caio-ignite-ui/tokens",
-  "version": "1.1.0",
+  "name": "@ignite-call-ui-docs/tokens",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@caio-ignite-ui/eslint-config": "workspace:*",
-    "@caio-ignite-ui/ts-config": "workspace:*",
+    "@ignite-call-ui-docs/eslint-config": "workspace:*",
+    "@ignite-call-ui-docs/ts-config": "workspace:*",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5"
   }

@@ -1,5 +1,5 @@
 {
-  "extends": "@caio-ignite-ui/ts-config/react.json",
+  "extends": "@ignite-call-ui-docs/ts-config/react.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

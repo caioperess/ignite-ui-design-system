@@ -1,4 +1,4 @@
-import { Text, TextProps } from '@caio-ignite-ui/react'
+import { Text, TextProps } from '@ignite-call-ui-docs/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 const meta: Meta<TextProps> = {
