@@ -1,5 +1,11 @@
 # @ignite-call-ui-docs/react
 
+## 2.0.0
+
+### Major Changes
+
+- Add toast and tooltip components
+
 ## 1.0.1
 
 ### Patch Changes
