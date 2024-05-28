@@ -17,16 +17,16 @@ importers:
 
   packages/docs:
     dependencies:
-      '@caio-ignite-ui/eslint-config':
+      '@ignite-call-ui-docs/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@caio-ignite-ui/react':
+      '@ignite-call-ui-docs/react':
         specifier: workspace:*
         version: link:../react
-      '@caio-ignite-ui/tokens':
+      '@ignite-call-ui-docs/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@caio-ignite-ui/ts-config':
+      '@ignite-call-ui-docs/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@phosphor-icons/react':
@@ -124,13 +124,13 @@ importers:
         specifier: ^1.2.8
         version: 1.2.8(react@18.3.1)
     devDependencies:
-      '@caio-ignite-ui/eslint-config':
+      '@ignite-call-ui-docs/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@caio-ignite-ui/tokens':
+      '@ignite-call-ui-docs/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@caio-ignite-ui/ts-config':
+      '@ignite-call-ui-docs/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       '@types/react':
@@ -151,10 +151,10 @@ importers:
 
   packages/tokens:
     devDependencies:
-      '@caio-ignite-ui/eslint-config':
+      '@ignite-call-ui-docs/eslint-config':
         specifier: workspace:*
         version: link:../eslint-config
-      '@caio-ignite-ui/ts-config':
+      '@ignite-call-ui-docs/ts-config':
         specifier: workspace:*
         version: link:../ts-config
       tsup:
