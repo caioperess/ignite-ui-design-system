@@ -4,6 +4,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 const meta: Meta<MultiStepProps> = {
   title: 'Form/Multi Step',
   component: MultiStep,
+  tags: ['autodocs'],
   args: {
     size: 4,
     currentStep: 1,

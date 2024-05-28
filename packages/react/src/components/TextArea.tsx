@@ -29,5 +29,6 @@ export const TextArea = styled('textarea', {
     cursor: 'not-allowed',
   },
 })
+TextArea.displayName = 'TextArea'
 
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {}

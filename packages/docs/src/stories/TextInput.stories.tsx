@@ -4,6 +4,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 const meta: Meta<TextInputProps> = {
   title: 'Form/Text Input',
   component: TextInput,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => (

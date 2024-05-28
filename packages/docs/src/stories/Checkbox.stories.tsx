@@ -4,6 +4,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 const meta: Meta<CheckboxProps> = {
   title: 'Form/Checkbox',
   component: Checkbox,
+  tags: ['autodocs'],
   args: {
     children: 'Send',
   },

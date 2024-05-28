@@ -4,6 +4,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 const meta: Meta<TextAreaProps> = {
   title: 'Form/Text Area',
   component: TextArea,
+  tags: ['autodocs'],
   args: {},
   decorators: [
     (Story) => (

@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "storybook build"
+    "build": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "@chromatic-com/storybook": "1.4.0",
+    "@storybook/addon-a11y": "^8.1.4",
     "@storybook/addon-docs": "^8.1.1",
     "@storybook/addon-essentials": "^8.1.1",
     "@storybook/addon-interactions": "^8.1.1",
@@ -21,6 +23,7 @@
     "@storybook/manager-api": "^8.1.1",
     "@storybook/react": "^8.1.1",
     "@storybook/react-vite": "^8.1.1",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.1.1",
     "@storybook/theming": "^8.1.1",
     "@types/react": "^18.3.2",

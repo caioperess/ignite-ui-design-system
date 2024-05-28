@@ -30,6 +30,7 @@ export const Text = styled('p', {
     size: 'md',
   },
 })
+Text.displayName = 'Text'
 
 export interface TextProps extends ComponentProps<typeof Text> {
   as?: ElementType
