@@ -24,10 +24,10 @@ jobs:
           cache: 'pnpm'
 
       - run: pnpm install
-      - run: pnpm run build
+      - run: pnpm build
 
       - name: Deploy storybook
         working-directory: ./packages/docs
-        run: pnpm run deploy-storybook -- --ci --existing-output-dir=storybook-static
+        run: pnpm deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
