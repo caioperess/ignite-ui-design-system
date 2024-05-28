@@ -42,6 +42,7 @@ With a focus on creating high-quality and accessible UI components, the design s
 
 Technologies that I used to develop this application
 
+- [Changesets](https://github.com/changesets/changesets)
 - [ReactJS](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [StoryBook](https://storybook.js.org/)
