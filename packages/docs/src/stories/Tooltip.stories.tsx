@@ -28,8 +28,6 @@ const meta: Meta<TooltipProps> = {
           justifyContent: 'center',
           alignItems: 'center',
           background: 'transparent',
-          minHeight: '100vh',
-          overflow: 'hidden',
         }}
       >
         {Story()}
